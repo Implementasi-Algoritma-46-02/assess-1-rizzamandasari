@@ -11,9 +11,7 @@ public class Soal04 {
 	        double MARKETING_ALLOWANCE = 500000;
 	
 	        // Get input for job code and hours worked
-	        System.out.print("Enter job code (DES, PRG, WRT, MKT): ");
 	        String jobCode = scanner.next();
-	        System.out.print("Enter hours worked in a month: ");
 	        int hoursWorked = scanner.nextInt();
 	
 	        double allowance = 0;
